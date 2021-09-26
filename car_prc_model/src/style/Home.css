@@ -1,0 +1,114 @@
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header_container {
+  border-top: 5px solid #521a80;
+  height: 7vh;
+  background-color: #0c0c53;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.predict_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px 50px 50px 50px;
+  background-color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  height: 93vh;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.predict_data .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  padding-bottom: 30px;
+  margin-left: -20px;
+}
+
+.predict_data .header p {
+  color: #110a71;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+  -webkit-text-decoration-color: #524c9a;
+          text-decoration-color: #524c9a;
+}
+
+.predict_data form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.predict_data input {
+  width: 400px;
+  max-width: 500px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  font-size: medium;
+  outline-width: 0;
+}
+
+.predict_data select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  font-size: medium;
+  margin-bottom: 30px;
+  outline-width: 0;
+}
+
+.predict_data button {
+  padding: 15px;
+  background-color: #030340;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+}
+
+.predict_data .container p {
+  font-size: medium;
+  color: #2b2b74;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=Home.css.map */

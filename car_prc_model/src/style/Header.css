@@ -1,0 +1,65 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom-left-radius: 30px;
+}
+
+.header .container1 p {
+  color: white;
+  font-size: 23px;
+  text-decoration: underline;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+  -webkit-text-decoration-color: #7224ca;
+          text-decoration-color: #7224ca;
+  font-family: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.header .container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .container2 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding-left: 40px;
+  color: white;
+}
+
+.header .container2 input {
+  border-radius: 40px;
+  border: 1px solid lightgray;
+  outline-width: 0;
+  padding: 8px;
+  font-size: medium;
+}
+
+.header .container2 button {
+  margin-left: 20px;
+  color: black;
+  font-size: medium;
+  font-weight: 500;
+  border-radius: 30px;
+  border: 0px;
+  width: 100px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Header.css.map */

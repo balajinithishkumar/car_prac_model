@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-bottom-left-radius: 30px;
+
+  .container1 p {
+    color: white;
+    font-size: 23px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(114, 36, 202);
+    font-family: initial;
+    display: flex;
+    align-self: center;
+  }
+
+  .container2 {
+    display: flex;
+    p {
+      display: flex;
+      align-self: center;
+      padding-left: 40px;
+      color: white;
+    }
+    input {
+      border-radius: 40px;
+      border: 1px solid lightgray;
+      outline-width: 0;
+      padding: 8px;
+      font-size: medium;
+    }
+    button {
+      margin-left: 20px;
+      color: black;
+      font-size: medium;
+      font-weight: 500;
+      border-radius: 30px;
+      border: 0px;
+      width: 100px;
+      cursor: pointer;
+    }
+  }
+}

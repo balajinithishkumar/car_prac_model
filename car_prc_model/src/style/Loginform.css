@@ -1,0 +1,76 @@
+.loginform form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -80px;
+}
+
+.loginform form input {
+  max-width: 300px;
+  border: 1px solid lightgray;
+  padding: 7px;
+  outline-width: 0;
+  margin-bottom: 30px;
+}
+
+.login_button button {
+  width: 316px;
+  padding: 7px;
+  background-color: #030340;
+  color: white;
+  font-size: medium;
+  border: 1px solid #030340;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.user_agree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user_agree p {
+  color: #06065e;
+  font-size: 11px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.user_agree p a {
+  text-decoration: underline;
+  padding-left: 1px;
+}
+
+.user_agree p a:hover {
+  cursor: pointer;
+}
+
+.forget_pass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.forget_pass p {
+  color: #06065e;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.loginform name {
+  font-size: medium;
+  font-weight: 700;
+  color: #0e0e31;
+  padding-bottom: 3px;
+}
+/*# sourceMappingURL=Loginform.css.map */

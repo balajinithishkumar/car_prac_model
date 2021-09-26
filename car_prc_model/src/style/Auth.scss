@@ -1,0 +1,138 @@
+.auth_container {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  background-color: white;
+}
+
+.auth_container .option1 {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  height: 99vh;
+  display: flex;
+}
+.auth_container .option2 {
+  display: flex;
+  width: 50%;
+  object-fit: cover;
+  height: 100vh;
+}
+.auth_container .option2 img {
+  object-fit: cover;
+  image-rendering: -webkit-optimize-contrast;
+  max-width: 100%;
+}
+.auth_container .option1 .header p {
+  display: flex;
+  font-weight: bolder;
+  font-size: larger;
+  font-style: inherit;
+  font-family: inherit;
+  color: #110a71;
+  margin: 35px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+.auth_container .option1 .header {
+  height: 20%;
+}
+
+.auth_container .option1 .ls_logo {
+  height: 70%;
+  width: 80%;
+  display: flex;
+  margin-left: -25px;
+}
+.login {
+  display: flex;
+}
+.auth_container .option1 .ls_logo button {
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  color: #141458;
+  font-weight: bolder;
+  font-size: 19px;
+  margin: 40px;
+  border: 0;
+}
+
+.login,
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_border {
+  border-bottom: 3px solid;
+  display: flex;
+  flex-direction: column;
+  margin: -39px;
+  width: 42px;
+  position: relative;
+  align-items: center;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.signup_border {
+  border-bottom: 3px solid;
+  display: flex;
+  flex-direction: column;
+  width: 55px;
+  position: relative;
+  align-items: center;
+}
+.ls_froms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transation {
+  left: 152px;
+  width: 60px;
+}
+
+@media (max-width: 768px) {
+  .option1 .header {
+    display: none;
+  }
+  .auth_container {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+  }
+  .auth_container .option1 {
+    grid-area: option1;
+    width: 100%;
+    height: 50vh;
+    border: none;
+  }
+  .auth_container .option2 {
+    display: flex;
+    grid-area: option2;
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+  }
+  .login_sigup {
+    border: none;
+  }
+  .auth_container .option2 img {
+    object-fit: cover;
+    width: 100%;
+    margin: 0;
+    image-rendering: -webkit-optimize-contrast;
+  }
+  .auth_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "option2"
+      "option1";
+  }
+}

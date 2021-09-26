@@ -1,0 +1,60 @@
+.loginform form {
+  display: flex;
+  flex-direction: column;
+  margin-top: -80px;
+  input {
+    max-width: 300px;
+    border: 1px solid lightgray;
+    padding: 7px;
+    outline-width: 0;
+    margin-bottom: 30px;
+  }
+}
+.login_button button {
+  width: 316px;
+  padding: 7px;
+  background-color: #030340;
+  color: white;
+  font-size: medium;
+  border: 1px solid #030340;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+.user_agree {
+  display: flex;
+  p {
+    color: #06065e;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 10px;
+    a {
+      text-decoration: underline;
+      padding-left: 1px;
+    }
+    a:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.forget_pass {
+  display: flex;
+  justify-content: end;
+  margin-top: -20px;
+  margin-bottom: 10px;
+
+  p {
+    color: #06065e;
+    font-size: medium;
+    font-weight: 700;
+  }
+}
+
+.loginform {
+  name {
+    font-size: medium;
+    font-weight: 700;
+    color: #0e0e31;
+    padding-bottom: 3px;
+  }
+}
